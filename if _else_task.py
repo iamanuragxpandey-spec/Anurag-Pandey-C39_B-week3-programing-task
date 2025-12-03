@@ -1,4 +1,4 @@
-"""print("Welcome to the magic forest ".upper())
+print("Welcome to the magic forest ".upper())
 direction = input("choose the direction: ")
 if direction=="south":
     print("Game over")
@@ -11,7 +11,7 @@ else:
         if choice=="Fairy" or choice=="orge":
             print("Game over")
         else:
-            print("you win")"""
+            print("you win")
 
 
 
@@ -86,7 +86,7 @@ else:
 
 print(f"wages=:{wages_per_days}")
 """
-
+"""
 is_valid=True
 initial_balance=5000
 pin=123
@@ -114,4 +114,4 @@ if is_valid:
 
 
 else:
-    print("invalid card")   
+    print("invalid card")   """
