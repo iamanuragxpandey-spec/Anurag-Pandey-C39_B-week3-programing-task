@@ -87,13 +87,13 @@ for i in numbers:
  
      
 print(f'sum of all even number is {total}')'''
-
+"""
 list=[2,3,4,1,8,9]
 list2=[]
 for i in list[5::-1]:
     list2.append(i)
 print(list2)
-
+"""
 
 # Nested for  Loop
 
@@ -127,8 +127,113 @@ for i in list:
 a={1,2,3,4}
 b={3,4,5}
 print(a.difference(b))"""
-
+"""
 a=12
 b=5
 print(a^b)
+"""
+# quiestion model for exam mcq
+"""
+count=0
+for x in [5,10,15]:
+    count= count+1
+    print(count)"""
+"""
+emails=[1,2,3]
+for m in emails:
+    print("New mail!")
+    print("done")
+"""
+"""for i in [1,2]:
+    print("A")
+    for j in [1]:
+        print("B")"""
+"""
+points=[1,2,3]
+for p in points:
+    print(p*2)"""
+"""
+friends=["Aman","Sarah","John"]
+for f in friends:
+    if f=="Sarah":
+     continue
+    print(f)"""
+"""
+folders=[["pic1"],["pic2","pic3"]]
+for sub in folders:
+    for item in sub:
+        print(item)"""
+"""
+words=["hi","hello"]
+for w in words:
+    print(len(w))"""
+"""
+for i in range(8,5):
+    print(i)"""
+"""
+for i in range(0,10,5):
+    print(i)"""
 
+"""
+for row in range(6):
+  for column in range(5):
+    if (column==0 or column==1 or column==3 or column==4) and (row==0):
+     print("*",end=' ')
+    elif column==2:
+     print("*",end=' ')
+    else:
+      print(end=' ')
+  print()
+  """
+"""
+for row in range(6):
+   for column in range(5):
+    if (column==0 or column==4) :
+      print("*",end=" ")
+    elif (column==1 or column==3) and (row==4):
+      print("*",end=" ")
+    elif (column==2) and (row==3):
+      print("*",end=" ")
+    else:
+      print(end="  ")
+   print()"""
+'''
+items={'name':'rita','age':'21'}
+for i in items.items():
+    print(i)'''
+'''
+items={'name':'rita','age':'21'}
+for i,i in items.items():
+    print(i,i)'''
+"""
+quiz_questions={'Qno1':{'Question':'What is the correct way to create anf-string in Python?','option':
+          {'a':'f"Hello {name}"','b':'"Hello {name}"','c':'$"Hello {name}"','d':'fmt"Hello {name}"'},"correct_answer":'a'},
+          'Qno2':{'Question':'Question Which of the following statements is used to create an empty set in Python?','option':
+                  {'a':'{*()} ','b':'set( )','c':'( )','d':'both ab'},'correct_answer':'d'} }
+
+
+
+
+
+
+
+score=0
+for key,value in quiz_questions.items():
+    print(key,' ',value['Question'])
+    for key,j in value['option'].items():
+        print(key,'',j)
+    choice=input("choose the correct options:(a,b,c,d)")
+    if choice==value['correct_answer']:
+        score+=1
+    else:
+        pass
+print(f"Your final score is {score}")
+"""
+
+word=str(input("Enter the sentence you want:"))
+vowels=set()
+for i in word:
+    if i in  "aeiou" :
+        vowels.add(i)
+print(vowels)
+print(len(vowels))
