@@ -138,6 +138,5 @@ for word in sorted(word_count.keys()):
     print(f"{word}: {word_count[word]}")'''
 
 #
-a=12
-print(a)
+
     

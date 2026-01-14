@@ -233,7 +233,7 @@ print(f"Your final score is {score}")
 word=str(input("Enter the sentence you want:"))
 vowels=set()
 for i in word:
-    if i in  "aeiou" :
+    if i in  {'a','e','i','o','u'} :
         vowels.add(i)
 print(vowels)
 print(len(vowels))

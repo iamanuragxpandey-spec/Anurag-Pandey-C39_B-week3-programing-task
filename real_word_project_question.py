@@ -1,4 +1,4 @@
-dictionary={}
+"""dictionary={}
 unique_words=set()
 user_input=int(input('how many words do you want to add:'))
 for i in range(1,user_input+1):
@@ -25,7 +25,7 @@ for i in range(1,user_input+1):
        break
 print(unique_words)
 
-
+"""
 #2 
 """
 items=[]
